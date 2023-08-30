@@ -1,0 +1,18 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:filedb
+    driverClassName: "org.h2.Driver"
+    username: sa
+    password: ""
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+save:
+  save-path: /Users/rolnik/code/personal-repos/skeleton/files
+server:
+  port: 8080
