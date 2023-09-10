@@ -10,9 +10,9 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     generate-ddl: true
 save:
   save-path: /Users/rolnik/code/personal-repos/skeleton/files
 server:
-  port: 8080
+  port: 8081
